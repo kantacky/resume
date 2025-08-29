@@ -41,7 +41,9 @@
 - Kubernetes
 - AWS
   - EC2
+  - Lambda
   - S3
+  - Bedrock
 - Google Cloud Platform
   - Compute Engine
   - Cloud Run
@@ -58,44 +60,45 @@
   - Cloud Messaging
   - Remote Config
   - Storage
-- Cursor, Claude Code, MCP
 - Cloudflare
   - R2
   - Pages
   - Workers
 - Figma
+- AI
+  - Cursor
+  - Claude Code
+  - Gemini CLI
+  - Devin
 
-## [WIP] 語学スキル
+## 語学スキル
+
+- **日本語**: ネイティブ
+- **英語**: CEFR B1
 
 ---
 
-## [WIP] 開発経験・ポートフォリオ
+## 開発経験・ポートフォリオ
 
-中学 2 年で C 言語によるプログラミングを始める．2015 年ごろから WWDC の Keynote を見始め，Apple への興味・関心が深まる．高校 1 年で Web に興味を持ち始め，Django を用いた Web 開発を始める．開発した Web アプリをホスティングするために自宅サーバーを構築する．高校のクラスメイトに，時間割，高校の Web サイトに公開される緊急情報を共有するための Web アプリを開発する．大学 1 年で Mac の購入を機に，Swift を用いた iOS アプリ開発を始める．以降 iOS を中心にさまざまな開発経験を経る．以下に代表的な開発経験をまとめる．
+中学 2 年で C 言語によるプログラミングを始める。2015 年ごろから WWDC の Keynote を見始め、Apple への興味・関心が深まる。高校 1 年で Web に興味を持ち始め、Django を用いた Web 開発を始める。開発した Web アプリをホスティングするために自宅サーバーを構築する。高校のクラスメイトに、時間割、高校の Web サイトに公開される緊急情報を共有するための Web アプリを開発する。大学 1 年で Mac の購入を機に、Swift を用いた iOS アプリ開発を始める。以降 iOS を中心にさまざまな開発経験を経る。以下に代表的な開発経験をまとめる。
 
 ### STRAY-IT
 
-方向音痴のための道案内アプリ．目的地までの距離と方向のみが提示され，ユーザーが目的地までの道のりを探すことを促す．
+公立はこだて未来大学の学内ハッカソン、P2HACKS2022 で開発したプロダクト。方向音痴のための道案内アプリ。目的地までの距離と方向のみが提示され、ユーザーが目的地までの道のりを探すことを促す。当初はハッカソンで開発をスタートし、ハッカソン終了後も開発を継続。2024 年 6 月に App Store に公開。
 
-**開発期間**: 2022/12/10 - 2022/12/18 (9 日間)  
-**形態**: PdM x 1, デザイナー x 1, エンジニア x 1  
+**開発期間**: 2022/12/10 - 2022/12/18 (9 日間), 2023/04/01 -  
+**形態**: ハッカソン、チーム開発  
+**チーム体制**: PdM x 1 (ハッカソンのみ参加), デザイナー x 1, エンジニア x 1  
 **プロダクトへの関わり方**: エンジニアとして iOS アプリを実装  
-**技術**: Swift, MapKit, CoreLocation  
+**技術**: Swift, SwiftUI, MapKit, CoreLocation, SPM, TCA, App Store Connect, TestFlight  
 **Blog**: https://kantacky.com/p2hacks2022/
-
-### ふらりこ
-
-[STRAY-IT](#stray-it) を継続開発．2024 年 6 月に App Store に公開．2025 年 4 月に未踏 IT に応募．
-
-**開発期間**: 2023/04/01 -  
-**形態**: デザイナー x 1, エンジニア x 1  
-**技術**: Swift, MapKit, CoreLocation, Swift Package Manager, Swift Composable Architecture, App Store Connect, TestFlight  
-**プロダクトへの関わり方**: エンジニアとして iOS アプリを実装  
 **App Store**: https://apps.apple.com/jp/app/id6448612672
 
 ### タップル 設定画面の SwiftUI 化とリアーキテクチャ
 
-**プロダクトの概要**: 株式会社サイバーエージェントの就業型インターンシップでの成果．  
+株式会社サイバーエージェントの就業型インターンシップでの成果。
+
+**プロダクトの概要**: 2014 年にサービスを開始した、累計会員数 1,700 万人を超える国内最大規模のマッチングアプリ（2024 年 3 月現在）  
 **開発期間**: 2024/03/06 - 2024/03/29 (約 1 ヶ月間)  
 **形態**: 就業型インターンシップ (1 ヶ月間)  
 **プロダクトへの関わり方**: 設定画面の SwiftUI 化と新アーキテクチャへのリアーキテクチャを実施  
@@ -104,28 +107,43 @@
 
 ### CYCOMPE
 
+架空の iOS アプリケーションのチューニングコンペティション。
+
+**開発期間**: 2024/08/25 - 2024/08/26 (2 日間)  
+**形態**: コンペティション、個人  
+**結果**: 3 位
+
 ### Break60
 
-### あとまわしリンク
+勤怠管理に厳しいアルバイト先で、自分の休憩時間をぴったり 60 分取得するために開発。開発開始後、約 2 週間でリリース。現在も開発を継続。
+
+Live Activity により、アプリ外でも残りの休憩時間を知ることができる。StoreKit 2 によるアプリ内課金を実装し、広告非表示や、アプリアイコンカスタム機能などを提供。
+
+**開発期間**: 2024/09/01 -  
+**形態**: 個人開発  
+**技術**: Swift, SwiftUI, Activity Kit, Widget Kit, StoreKit 2, App Store Connect, TestFlight, AdMob  
+**App Store**: https://apps.apple.com/jp/app/id6670366203
 
 ### Vibe Cooking
 
+LINE ヤフー株式会社が主催する、Open Hack U 2025 Tokyo で開発したプロダクト。料理初心者がノリで料理することを支援するアプリ。手順を音声で読み上げる機能や、読み上げる手順を音声でコントロールする機能、また複数のレシピを AI が組み合わせて 1 つのレシピを構築する機能を提供。現在も継続して開発中。
+
+Web アプリのほとんどを Claude Code で実装した。OpenAPI や、Devin による React コンポーネントの SwiftUI への置き換えなどにより、iOS アプリを 36 時間で実装した。
+
+**開発期間**: 2022/12/10 - 2022/12/18 (9 日間), 2023/04/01 -  
+**形態**: ハッカソン、チーム開発  
+**チーム体制**: PdM x 1 (ハッカソンのみ参加), デザイナー x 1, エンジニア x 1  
+**プロダクトへの関わり方**: エンジニアとして 技術選定、インフラ整備、Web・iOS アプリの実装  
+**技術**: Swift, SwiftUI, SFSpeechRecognizer, AVFoundation, Swift Testing, OpenAPI Generator, TypeScript, Next.js, Heroku, Prisma, PostgreSQL, OpenAPI, Cloudflare R2, Gemini, Google Cloud Text-to-Speech, Claude Code, Devin, Firebase AppCheck  
+**開発期間**: 2025/06/09 - 2025/06/21 (13 日間)  
+**Blog**: 執筆中  
+**Website**: https://vibe-cooking.app  
+**App Store**: 準備中
+
 ---
 
-## [WIP] アピールポイント
+## アピールポイント
 
-あ
-
----
-
-## [WIP] ビジョン
-
-### 短期目標 (1 年以内)
-
-- あ
-
-### 長期目標 (3-5 年)
-
-- あ
+開発経験にあげた、企業での経験を除いたほとんどが独学を経た成果である。中学生のころから、自分が実現したいことをきっかけに必要な情報を収集し、知識をつけ、経験を積んできた。基本的な姿勢は、今も変わらず、幅広い領域に興味を持ち続け、さまざまな経験を積むことを心がけている。
 
 &copy; 2025 Kanta Oikawa
