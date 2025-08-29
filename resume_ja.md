@@ -95,7 +95,7 @@
 **チーム体制**: PdM x 1 (ハッカソンのみ参加), デザイナー x 1, エンジニア x 1  
 **プロダクトへの関わり方**: エンジニアとして iOS アプリを実装  
 **技術**: Swift, SwiftUI, MapKit, CoreLocation, SPM, TCA, App Store Connect, TestFlight  
-**Blog**: https://kantacky.com/p2hacks2022/
+**Blog**: https://kantacky.com/p2hacks2022/  
 **App Store**: https://apps.apple.com/jp/app/id6448612672
 
 ### タップル 設定画面の SwiftUI 化とリアーキテクチャ
